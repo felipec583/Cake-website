@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-cont {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 3rem auto;
+  border: none;
+}
+
+#error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+textarea {
+  resize: none;
+}
+
+.left img,
+.right img {
+  width: 50px;
+}
+
