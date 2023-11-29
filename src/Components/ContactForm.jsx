@@ -46,7 +46,7 @@ const ContactForm = () => {
 
         <input
           type="email"
-          placeholder="Type here"
+          placeholder="Escribe tu email"
           className="input input-bordered w-1/2"
           id="email"
           onChange={(e) =>
